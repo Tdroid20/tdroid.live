@@ -2,10 +2,11 @@ import React from "react";
 import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
+import { mockupApi } from "../../../services/Mock/setup";
 
 
 const AboutMePage = () => {
-    let pre_alpha = false;
+    let pre_alpha = mockupApi.map(x => x.environment.isPreAlpha);
     if (pre_alpha) {
         return (
             <div>
