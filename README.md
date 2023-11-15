@@ -22,7 +22,7 @@
 
 # Changelogs
 
-Versão: <strong>0.1.4</strong>
+Versão: <strong>1.0.2</strong>
 Channel: <strong>Beta</strong>
 FilesChanged: **19**
 Insertions: **173**
