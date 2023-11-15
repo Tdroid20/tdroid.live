@@ -8,7 +8,7 @@ import { mockupApi } from "../../../services/Mock/Production/setup";
 const AboutMePage = () => {
     let projectSetup = mockupApi.map(x => x)
     let pre_alpha = mockupApi.map(x => x.environment.isPreAlpha);
-    if (pre_alpha && projectSetup.map(x => x.environment.channel == "production")) {
+    if (pre_alpha && projectSetup.map(x => x.environment.channel === "production")) {
         return (
             <div>
              <OfflineWeb />
