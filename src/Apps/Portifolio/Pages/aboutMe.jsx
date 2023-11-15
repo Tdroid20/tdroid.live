@@ -2,12 +2,13 @@ import React from "react";
 import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
-import { mockupApi } from "../../../services/Mock/setup";
+import { mockupApi } from "../../../services/Mock/Production/setup";
 
 
 const AboutMePage = () => {
+    let projectSetup = mockupApi.map(x => x)
     let pre_alpha = mockupApi.map(x => x.environment.isPreAlpha);
-    if (pre_alpha) {
+    if (pre_alpha && projectSetup.map(x => x.environment.channel == "production")) {
         return (
             <div>
              <OfflineWeb />
