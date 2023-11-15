@@ -5,7 +5,7 @@ import { AboutHeaderComponents } from "../Components/header";
 
 
 const AboutMePage = () => {
-    let pre_alpha = false;
+    let pre_alpha = true;
     if (pre_alpha) {
         return (
             <div>
