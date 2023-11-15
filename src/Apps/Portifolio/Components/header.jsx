@@ -2,7 +2,7 @@ import React from "react";
 import './header.css';
 import { ThemeButton } from "./ThemeButton";
 
-export const About_HeaderComponents = () => {
+export const AboutHeaderComponents = () => {
     return (
         <div className="about_header">
             <div className="about_header_section">

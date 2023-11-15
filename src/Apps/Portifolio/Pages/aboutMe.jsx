@@ -1,7 +1,7 @@
 import React from "react";
 import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
-import { About_HeaderComponents } from "../Components/header";
+import { AboutHeaderComponents } from "../Components/header";
 
 
 const AboutMePage = () => {
@@ -16,7 +16,7 @@ const AboutMePage = () => {
 
     return (
     <div className="Body">
-        <About_HeaderComponents />
+        <AboutHeaderComponents />
         <h1 className="title_about">Hello World! ❤</h1>
     </div>
     )
