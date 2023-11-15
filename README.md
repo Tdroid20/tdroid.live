@@ -24,6 +24,12 @@
 
 Versão: <strong>0.1.4</strong>
 Channel: <strong>Beta</strong>
-changeCount: **12**
+FilesChanged: **19**
+Insertions: **173**
+Deletions: **90**
 Provider: **Skyrus Production**
 
+Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
+Porém, será publicado no canal beta
+
+<h6 align="center">© Skyrus Productions S.A</h6>
