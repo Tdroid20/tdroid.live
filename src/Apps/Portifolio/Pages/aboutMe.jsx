@@ -7,7 +7,7 @@ import { mockupApi } from "../../../services/Mock/setup";
 
 const AboutMePage = () => {
     let hasAuthorization = true;
-    if (hasAuthorization) {
+    if (!hasAuthorization) {
         return (
             <div>
              <OfflineWeb />
