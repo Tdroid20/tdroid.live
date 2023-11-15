@@ -4,7 +4,6 @@ import { mockupApi } from "../../services/Mock/setup";
 import './offline.css'
 import Warning from './Assets/Icons/Warning3D.png'
 
-
 export const OfflineWeb = () => {
     return (
         <div className="body_offline">
