@@ -6,8 +6,8 @@ import { mockupApi } from "../../../services/Mock/setup";
 
 
 const AboutMePage = () => {
-    let pre_alpha = mockupApi.map(x => x.environment.isPreAlpha);
-    if (pre_alpha) {
+    let hasAuthorization = true;
+    if (hasAuthorization) {
         return (
             <div>
              <OfflineWeb />
