@@ -22,12 +22,12 @@
 
 # Changelogs
 
-Versão: <strong>1.0.2</strong>
-Channel: <strong>Beta</strong>
-FilesChanged: **19**
-Insertions: **173**
-Deletions: **90**
-Provider: **Skyrus Production**
+Versão: <strong>1.0.2</strong><br>
+Channel: <strong>Beta</strong><br>
+FilesChanged: **19** <br>
+Insertions: **173** <br>
+Deletions: **90** <br>
+Provider: **Skyrus Production**<br>
 
 Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
 Porém, será publicado no canal beta
