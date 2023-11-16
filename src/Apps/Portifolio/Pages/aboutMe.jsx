@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
-import { mockupApi } from "../../../services/Mock/setup";
 import tdroid from '../Assets/TdroidChart.png'
 
 
 const AboutMePage = () => {
+
     let hasAuthorization = true;
     if (!hasAuthorization) {
         return (
