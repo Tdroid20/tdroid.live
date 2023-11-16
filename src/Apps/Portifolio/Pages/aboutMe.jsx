@@ -3,7 +3,6 @@ import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
 import { mockupApi } from "../../../services/Mock/Production/setup";
-import { mockupApi } from "../../../services/Mock/setup";
 import tdroid from '../Assets/TdroidChart.png'
 
 
