@@ -55,3 +55,19 @@
 .about_avatar {
     width: 80%;
 }
+
+.about_subSection {
+    display: flex;
+}
+
+.green {
+    color: rgb(18, 226, 18);
+}
+
+.about_localeDescription {
+    margin-left: 10px;
+}
+
+.about_Social {
+    margin-left: 10px;
+}
