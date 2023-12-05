@@ -20,7 +20,7 @@ export const AboutHeaderComponents = () => {
                         <a href="#title_about" className="about_header_list_text">Sobre-mim</a>
                     </ul>
                     <ul className="about_header_item">
-                        <a href="#aboutSkills_title" className="about_header_list_text">Experiência</a>
+                        <a href="#aboutSkills_title " className="about_header_list_text">Experiência</a>
                     </ul>
                     <ul className="about_header_item">
                         <a href="!#" className="about_header_list_text">Certificações</a>

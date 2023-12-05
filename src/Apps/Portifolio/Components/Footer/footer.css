@@ -1,0 +1,10 @@
+.footer_SKFLogo {
+    width: 280px;
+    height: 200px;
+}
+
+.footer_gap {
+    margin-right: 20px;
+    display: flex;
+    flex-shrink: row;
+}

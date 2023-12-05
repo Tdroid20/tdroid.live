@@ -3,6 +3,7 @@ import '../Style/aboutMe.css'
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
 import tdroid from '../Assets/TdroidChart.png'
+import { FooterComponent } from "../Components/Footer/footer";
 
 
 const AboutMePage = () => {
@@ -79,6 +80,7 @@ const AboutMePage = () => {
                     </div>
                 </div>
             </div>
+            <FooterComponent />
         </div>
     )
 };
