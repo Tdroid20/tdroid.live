@@ -22,14 +22,14 @@
 
 # Changelogs
 
-Versão: <strong>1.0.2</strong><br>
-Channel: <strong>Beta</strong><br>
-FilesChanged: **19** <br>
-Insertions: **173** <br>
-Deletions: **90** <br>
+Versão: <strong>1.0.4</strong><br>
+Channel: <strong>Canary</strong><br>
+FilesChanged: **5** <br>
+Insertions: **2** <br>
+Deletions: **5** <br>
 Provider: **Skyrus Production**<br>
 
 Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
-Porém, será publicado no canal beta
+Porém, será publicado no canal beta e canary
 
 <h6 align="center">© Skyrus Productions S.A</h6>
