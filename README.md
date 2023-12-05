@@ -22,11 +22,11 @@
 
 # Changelogs
 
-Versão: <strong>1.0.4</strong><br>
+Versão: <strong>1.0.5</strong><br>
 Channel: <strong>Canary</strong><br>
-FilesChanged: **5** <br>
-Insertions: **2** <br>
-Deletions: **5** <br>
+FilesChanged: **0** <br>
+Insertions: **0** <br>
+Deletions: **0** <br>
 Provider: **Skyrus Production**<br>
 
 Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.

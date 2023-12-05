@@ -5,7 +5,7 @@ import { InstagramIcon, YoutubeIcon } from "../icon/icons";
 
 export const FooterComponent = () => {
     return (
-        <footer >
+        <footer>
             <div className="row justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
                 <div className="col-12">
                     <div className="row row-2">
