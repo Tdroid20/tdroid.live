@@ -20,7 +20,7 @@ export const AboutHeaderComponents = () => {
                         <a href="#title_about" className="about_header_list_text">Sobre-mim</a>
                     </ul>
                     <ul className="about_header_item">
-                        <a href="!#" className="about_header_list_text">Experiência</a>
+                        <a href="#aboutSkills_title" className="about_header_list_text">Experiência</a>
                     </ul>
                     <ul className="about_header_item">
                         <a href="!#" className="about_header_list_text">Certificações</a>
@@ -32,7 +32,7 @@ export const AboutHeaderComponents = () => {
                     <div className="about_header_divider" />
 
                     <ThemeButton />
-                    <button className="about_header_buttonCV" id="downloadButton"><a href={CVZip} id="downloadBTN" download="TdroidCV.zip" type="application/pdf">Download CV</a></button>
+                    <button className="about_header_buttonCV" id="downloadButton"><a href={CVZip} id="downloadBTN" download="TdroidCV_Richard.zip" type="application/pdf">Download CV</a></button>
                 </li>
             </div>
         </div>
