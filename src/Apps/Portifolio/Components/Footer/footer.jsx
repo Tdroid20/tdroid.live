@@ -13,7 +13,7 @@ export const FooterComponent = () => {
                         <div className="col-sm-3  my-sm-0 mt-5"><ul className="list-unstyled">
                             <li className="mt-0"><i className="fa-solid fa-server"></i> API</li>
                             <li><i className="fa-regular fa-gem"></i> Beta Presence</li>
-                            <li><i class="fa-solid fa-clock-rotate-left"></i> ChangeLogs</li>
+                            <li><i className="fa-solid fa-clock-rotate-left"></i> ChangeLogs</li>
                         </ul>
                         </div>
                         <div className="col-sm-3  my-sm-0 mt-5">

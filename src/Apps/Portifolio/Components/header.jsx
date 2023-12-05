@@ -2,12 +2,9 @@ import React, { useState } from "react";
 import './header.css';
 import './Script/DownloadCV'
 import { ThemeButton } from "./ThemeButton";
-import { downloadCV } from "./Script/DownloadCV";
 import CVZip from '../Assets/Documents/TdroidCV.zip'
 
 export const AboutHeaderComponents = () => {
-
-    const downloadCV_URL = "http://localhost:3001/src/Apps/Portifolio/Assets/Documents/Tdroid_Richard_cv.docx"
 
     const [download, setDownload] = useState("")
 
