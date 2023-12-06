@@ -24,9 +24,9 @@
 
 Versão: <strong>1.0.5</strong><br>
 Channel: <strong>Canary</strong><br>
-FilesChanged: **0** <br>
-Insertions: **0** <br>
-Deletions: **0** <br>
+FilesChanged: **9** <br>
+Insertions: **140** <br>
+Deletions: **18** <br>
 Provider: **Skyrus Production**<br>
 
 Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
