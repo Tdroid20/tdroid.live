@@ -1,0 +1,22 @@
+.apiStatus_TitleDiv {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#apiStatusTitle {
+    display: flex;
+    width: 400px;
+    background: var(--gray-dark-50, #111827);
+    justify-content: center;
+    margin-bottom: -2px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 10px 10px 0px #FFFFFF;
+}
+
+.apiS_container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--gray-dark-50, #111827);
+}
