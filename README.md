@@ -32,4 +32,32 @@ Provider: **Skyrus Production**<br>
 Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
 Porém, será publicado no canal beta e canary
 
+ <h1 align="center">Links Uteis: </h1>
+
+<div style="display: flex; width: 100%; justify-content: space-around">
+    <h3><a href="./Project/TODO.md" style="color: #fff;">📋┃Todo</h3>
+    <h3><a href="./Project/Changelog.md" style="color: #fff;">🧾┃Changelog</h3>
+    <h3><a href="./Project/BACKLOG.project" style="color: #fff;">📚┃Backlog</h3>
+</div>
+ <a href="" style="color: #fff;">
+    <h3>
+        <img src="./PublicAssets/Icons/icon-nodejs.png" alt="🎨" width="20px" height="20px"/> ┃Área Back-end
+    </h3>
+</a>
+<a href="" style="color: #fff;">
+    <h3>
+        <img src="./PublicAssets/Icons/icon-react.png" alt="🎨" width="20px" height="20px"/> ┃Área Front-end
+    </h3>
+</a>
+    <a href="" style="color: #fff;">
+    <h3>
+        <img src="./PublicAssets/Icons/icon-figma.png" alt="🎨" width="20px" height="20px"/>┃Projeto AboutMe
+    </h3>
+    </a>
+    <a href="" style="color: #fff;">
+    <h3>
+        <img src="./PublicAssets/Icons/icon-figma.png" alt="🎨" width="20px" height="20px"/>┃Projeto MasterHUB
+    </h3>
+    </a>
+
 <h6 align="center">© Skyrus Productions S.A</h6>
