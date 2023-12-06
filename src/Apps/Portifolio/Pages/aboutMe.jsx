@@ -98,24 +98,70 @@ const AboutMePage = () => {
                     <p className="about_descriptionSkill">As habilidades, ferramentas e tecnologias nas quais sou bom:</p>
                 </div>
 
-                <div className="about_skillsImage">
-                    <img src={css} alt="CSS logo" className="skillImg" id="CSS"/>
-                    <img src={blender} alt="Blender logo" className="skillImg" id="Blender"/>
-                    <img src={bootstrap} alt="Bootstrap logo" className="skillImg" id="Bootstrap"/>
-                    <img src={docker} alt="Docker logo" className="skillImg" id="Docker"/>
-                    <img src={html} alt="html 5 logo" className="skillImg" id="HTML"/>
-                    <img src={express} alt="Express logo" className="skillImg" id="Express"/>
-                    <img src={git} alt="Git logo" className="skillImg" id="Git"/>
-                </div>
-                <div className="about_skillsImage">
-                    <img src={javscript} alt="JavaScript logo" className="skillImg" id="JavaScript"/>
-                    <img src={nodejs} alt="NodeJS logo" className="skillImg" id="NodeJS"/>
-                    <img src={react} alt="React logo" className="skillImg" id="React"/>
-                    <img src={typescript} alt="Typescript logo" className="skillImg" id="Typescript"/>
-                    <img src={postgresql} alt="PostgresSQL logo" className="skillImg" id="PostgresSQL"/>
-                    <img src={swift} alt="Swift logo" className="skillImg" id="Swift"/>
-                    <img src={tech} alt="MongoDB logo" className="skillImg" id="MongoDB"/>
-                </div>
+                <section className="about_container">
+                    <div className="about_skillsImage">
+                        <img src={css} alt="CSS logo" className="skillImg" id="CSS" />
+                        <p className="about_description">CSS</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={blender} alt="Blender logo" className="skillImg" id="Blender" />
+                        <p className="about_description">Blender</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={bootstrap} alt="Bootstrap logo" className="skillImg" id="Bootstrap" />
+                        <p className="about_description">Bootstrap</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={docker} alt="Docker logo" className="skillImg" id="Docker" />
+                        <p className="about_description">Docker</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={html} alt="html 5 logo" className="skillImg" id="HTML" />
+                        <p className="about_description">HTML</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={express} alt="Express logo" className="skillImg" id="Express" />
+                        <p className="about_description">Express</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={git} alt="Git logo" className="skillImg" id="Git" />
+                        <p className="about_description">Git</p>
+                    </div>
+
+                </section>
+
+                <section className="about_container">
+                    <div className="about_skillsImage">
+                        <img src={javscript} alt="JavaScript logo" className="skillImg" id="JavaScript" />
+                        <p className="about_description" id="">JavaScript</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={nodejs} alt="NodeJS logo" className="skillImg" id="NodeJS" />
+                        <p className="about_description">NodeJS</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={react} alt="React logo" className="skillImg" id="React" />
+                        <p className="about_description">React</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={typescript} alt="Typescript logo" className="skillImg" id="Typescript" />
+                        <p className="about_description">TypeScript</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={postgresql} alt="PostgresSQL logo" className="skillImg" id="PostgresSQL" />
+                        <p className="about_description">PostgresSQL</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={swift} alt="Swift logo" className="skillImg" id="Swift" />
+                        <p className="about_description">Swift</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={tech} alt="MongoDB logo" className="skillImg" id="MongoDB" />
+                        <p className="about_description">MongoDB</p>
+                    </div>
+
+
+                </section>
             </div>
             <FooterComponent />
         </div>

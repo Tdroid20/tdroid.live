@@ -9,7 +9,7 @@
     display: flex;
     width: 400px;
     background: var(--gray-dark-50, #111827);
-    : center;
+    justify-content: center;
     margin-bottom: -2px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 10px 10px 0px #FFFFFF;

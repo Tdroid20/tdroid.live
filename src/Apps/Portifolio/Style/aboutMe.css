@@ -137,11 +137,22 @@ p {
     flex-wrap: wrap;
 }
 
+.about_container {
+    display: flex;
+    
+}
+
 .skillImg {
     width: 130px;
     height: 130px;
     margin-top: 3em;
     padding: 0em 1em;
+}
+
+.about_description {
+    width: 35%;
+    display: flex;
+    justify-content: center;
 }
 
 #CSS {
