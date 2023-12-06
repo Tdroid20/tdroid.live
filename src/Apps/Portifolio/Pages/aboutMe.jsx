@@ -1,8 +1,22 @@
 import React from "react";
-import '../Style/aboutMe.css'
+import '../Style/aboutMe.css';
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
-import tdroid from '../Assets/TdroidChart.png'
+import tdroid from '../Assets/TdroidChart.png';
+import css from '../Assets/Icons/CSS.png';
+import blender from '../Assets/Icons/Blender.png';
+import bootstrap from '../Assets/Icons/Bootstrap_logo.svg.png';
+import docker from '../Assets/Icons/Docker.png';
+import html from '../Assets/Icons/HTML.png';
+import express from '../Assets/Icons/icon-express.png';
+import git from '../Assets/Icons/icon-git.png';
+import javscript from '../Assets/Icons/icon-javscript.png';
+import nodejs from '../Assets/Icons/icon-nodejs.png';
+import react from '../Assets/Icons/icon-react.png';
+import typescript from '../Assets/Icons/icon-typescript.png';
+import postgresql from '../Assets/Icons/PostgreSQL.png';
+import swift from '../Assets/Icons/Swift.png';
+import tech from '../Assets/Icons/Tech.png';
 import { FooterComponent } from "../Components/Footer/footer";
 
 
@@ -78,6 +92,29 @@ const AboutMePage = () => {
                     <div className="about_skillsInternal">
                         <p className="aboutSkills_title">Skils</p>
                     </div>
+                </div>
+
+                <div>
+                    <p className="about_descriptionSkill">As habilidades, ferramentas e tecnologias nas quais sou bom:</p>
+                </div>
+
+                <div className="about_skillsImage">
+                    <img src={css} alt="CSS logo" className="skillImg" id="CSS"/>
+                    <img src={blender} alt="Blender logo" className="skillImg" id="Blender"/>
+                    <img src={bootstrap} alt="Bootstrap logo" className="skillImg" id="Bootstrap"/>
+                    <img src={docker} alt="Docker logo" className="skillImg" id="Docker"/>
+                    <img src={html} alt="html 5 logo" className="skillImg" id="HTML"/>
+                    <img src={express} alt="Express logo" className="skillImg" id="Express"/>
+                    <img src={git} alt="Git logo" className="skillImg" id="Git"/>
+                </div>
+                <div className="about_skillsImage">
+                    <img src={javscript} alt="JavaScript logo" className="skillImg" id="JavaScript"/>
+                    <img src={nodejs} alt="NodeJS logo" className="skillImg" id="NodeJS"/>
+                    <img src={react} alt="React logo" className="skillImg" id="React"/>
+                    <img src={typescript} alt="Typescript logo" className="skillImg" id="Typescript"/>
+                    <img src={postgresql} alt="PostgresSQL logo" className="skillImg" id="PostgresSQL"/>
+                    <img src={swift} alt="Swift logo" className="skillImg" id="Swift"/>
+                    <img src={tech} alt="MongoDB logo" className="skillImg" id="MongoDB"/>
                 </div>
             </div>
             <FooterComponent />

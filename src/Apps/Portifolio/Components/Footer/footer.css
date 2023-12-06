@@ -1,3 +1,7 @@
+footer {
+    background: var(--gray-dark-default, #030712);
+}
+
 .footer_SKFLogo {
     width: 280px;
     height: 200px;
