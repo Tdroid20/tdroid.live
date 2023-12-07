@@ -11,9 +11,7 @@ export const APIStatus = () => {
         try {
             const response = await API_SK.get("/");
             setDetails(response.data);
-            console.log(process.env.REACT_APP_API)
         } catch(error) {
-            console.log(process.env.REACT_APP_API)
             console.error("Error fetching API status:", error);
         }
     }
