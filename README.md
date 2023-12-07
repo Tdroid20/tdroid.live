@@ -22,15 +22,13 @@
 
 # Changelogs
 
-Versão: <strong>1.0.5</strong><br>
-Channel: <strong>Canary</strong><br>
+Versão: <strong>1.1.5</strong><br>
+Channel: <strong>Beta</strong><br>
 FilesChanged: **9** <br>
 Insertions: **140** <br>
 Deletions: **18** <br>
 Provider: **Skyrus Production**<br>
-
-Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
-Porém, será publicado no canal beta e canary
+Changelogs: [veja nosso changelogs](./Project/Changelog.md)
 
  <h1 align="center">Links Uteis: </h1>
 

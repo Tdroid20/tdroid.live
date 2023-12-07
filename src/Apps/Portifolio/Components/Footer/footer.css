@@ -12,3 +12,13 @@ footer {
     display: flex;
     flex-shrink: row;
 }
+
+.footer_Links {
+    text-decoration: none;
+    color: var(--gray-dark-900, #F9FAFB);
+}
+
+.footer_Links :hover {
+    text-decoration: solid;
+    color: #ff00ea
+}

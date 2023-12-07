@@ -22,15 +22,14 @@
 
 # Changelogs
 
-Versão: <strong>1.0.5</strong><br>
-Channel: <strong>Canary</strong><br>
+Versão: <strong>1.1.5</strong><br>
+Channel: <strong>Beta</strong><br>
 FilesChanged: **0** <br>
 Insertions: **0** <br>
 Deletions: **0** <br>
 Provider: **Skyrus Production**<br>
 
-Adicionamos a introdução a pagina de sobre-mim. Essa versão ainda não está implementada por completo.
-Porém, será publicado no canal beta e canary
+Essa é a ultima versão antes do projeto ser colocado em pausa para a integração da MasterHUB.
 
 <div style="display: flex; width: 100%; justify-content: center">
     <img src="../PublicAssets/Icons/SkyrusProduction.png" alt=" " width="30px" height="30px" style="margin-top: 18px"/> 

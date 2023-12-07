@@ -9,7 +9,6 @@
 
 .about_header_title {
     width: 240px;
-    color: var(--gray-dark-900, #F9FAFB);
     text-align: center;
     font-family: Inter;
     font-size: 25px;
@@ -17,8 +16,11 @@
     font-weight: 700;
     line-height: 36px;
     letter-spacing: -0.6px;
-    margin-top: -25px;
-    
+}
+
+#backToView {
+    text-decoration: none;
+    color: var(--gray-dark-900, #F9FAFB);
 }
 
 .about_header_list {
@@ -26,6 +28,12 @@
     display: flex;
     justify-content: space-around;
     margin-right: 24px;
+    align-items: center;
+}
+
+.about_header_item {
+    margin: 0;
+    padding: 0;
 }
 
 .about_header_list_text {
