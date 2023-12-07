@@ -18,6 +18,7 @@ import postgresql from '../Assets/Icons/PostgreSQL.png';
 import swift from '../Assets/Icons/Swift.png';
 import tech from '../Assets/Icons/Tech.png';
 import { FooterComponent } from "../Components/Footer/footer";
+import { DownloadButton } from "../Components/download/button";
 
 
 const AboutMePage = () => {
