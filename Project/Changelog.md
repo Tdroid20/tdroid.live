@@ -22,8 +22,8 @@
 
 # Changelogs
 
-Versão: <strong>1.1.5</strong><br>
-Channel: <strong>Beta</strong><br>
+Versão: <strong>1.1.0-Pré-alpha</strong><br>
+Channel: <strong>Stable</strong><br>
 FilesChanged: **0** <br>
 Insertions: **0** <br>
 Deletions: **0** <br>

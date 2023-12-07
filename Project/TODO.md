@@ -17,11 +17,11 @@ Segue aqui a programação prevista
 - [ ] Criar Integração com a API
 - [ ] Criar Login Social
 
-## Projeto Portifólio
+## Projeto Portifólio ✔
 - [X] redirecionar portifólio da tela inical
-- [-] encaminhar protifólio para about.tdroid.live
+- [X] encaminhar protifólio para about.tdroid.live
 - [X] Criar Tela de verificação de status da API
-- [ ] Finalizar versão pré-alpha
+- [X] Finalizar versão pré-alpha
 
 
  <h1 align="center">Links Uteis: </h1>
