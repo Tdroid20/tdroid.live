@@ -1,0 +1,19 @@
+#sk_youtube_icon {
+    color: #FFF;
+}
+
+.icon {
+    margin-right: 3px;
+}
+
+@keyframes example {
+    0%   {background-color: #FFF;}
+    50%  {background-color: #e4b6b6;}
+    100% {background-color: #CD201F;}
+}
+
+#sk_youtube_icon :hover {
+    color: #CD201F;
+    animation-name: example;
+    animation-duration: 2s;
+}

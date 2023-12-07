@@ -1,0 +1,24 @@
+footer {
+    background: var(--gray-dark-default, #030712);
+}
+
+.footer_SKFLogo {
+    width: 280px;
+    height: 200px;
+}
+
+.footer_gap {
+    margin-right: 20px;
+    display: flex;
+    flex-shrink: row;
+}
+
+.footer_Links {
+    text-decoration: none;
+    color: var(--gray-dark-900, #F9FAFB);
+}
+
+.footer_Links :hover {
+    text-decoration: solid;
+    color: #ff00ea
+}
