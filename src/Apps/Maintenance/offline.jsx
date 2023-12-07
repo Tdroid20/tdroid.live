@@ -1,6 +1,6 @@
 import React from "react";
 import '../../services/Mock/setup.json'
-import { mockupApi } from "../../services/Mock/setup";
+import { mockupApi } from "../../services/Mock/Production/setup";
 import './offline.css'
 import Warning from './Assets/Icons/Warning3D.png'
 
