@@ -7,8 +7,8 @@
 
 Segue aqui a programação prevista
 
- <h1 align="center">Próximos Passos</h1>
-- [ ] Iniciar projeto "MasterHUB"
+# <p align="center">Próximos Passos</p>
+- [ ] Iniciar projeto MasterHUB
 - [ ] Fazer uma Rebase total
 
 ## Projeto MasterHUB
@@ -18,9 +18,10 @@ Segue aqui a programação prevista
 - [ ] Criar Login Social
 
 ## Projeto Portifólio
-- [ ] redirecionar portifólio da tela inical
-- [ ] encaminhar protifólio para about.tdroid.live
-- [ ] Criar Tela de verificação de status da API
+- [X] redirecionar portifólio da tela inical
+- [-] encaminhar protifólio para about.tdroid.live
+- [X] Criar Tela de verificação de status da API
+- [ ] Finalizar versão pré-alpha
 
 
  <h1 align="center">Links Uteis: </h1>
