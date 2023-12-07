@@ -32,7 +32,7 @@ export const FooterComponent = () => {
                     <div className="row my-4 row-1 no-gutters">
                         <div className="col-sm-3 col-auto text-center"><small>&#9400; Skyrus Productions S.A</small></div><div className="col-md-3 col-auto "></div><div className="col-md-3 col-auto"></div>
                         <div className="col  my-auto text-md-left  text-right footer_gap ">
-                            <sdmall><span className="">contact@tdroid.live</span></sdmall>
+                            <small><span className="">contact@tdroid.live</span></small>
                             <YoutubeIcon /> <InstagramIcon />
                         </div>
                     </div>
