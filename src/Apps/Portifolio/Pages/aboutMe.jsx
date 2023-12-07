@@ -1,8 +1,23 @@
-import React, { useState } from "react";
-import '../Style/aboutMe.css'
+import React from "react";
+import '../Style/aboutMe.css';
 import { OfflineWeb } from "../../Maintenance/offline";
 import { AboutHeaderComponents } from "../Components/header";
-import tdroid from '../Assets/TdroidChart.png'
+import tdroid from '../Assets/TdroidChart.png';
+import css from '../Assets/Icons/CSS.png';
+import blender from '../Assets/Icons/Blender.png';
+import bootstrap from '../Assets/Icons/Bootstrap_logo.svg.png';
+import docker from '../Assets/Icons/Docker.png';
+import html from '../Assets/Icons/HTML.png';
+import express from '../Assets/Icons/icon-express.png';
+import git from '../Assets/Icons/icon-git.png';
+import javscript from '../Assets/Icons/icon-javscript.png';
+import nodejs from '../Assets/Icons/icon-nodejs.png';
+import react from '../Assets/Icons/icon-react.png';
+import typescript from '../Assets/Icons/icon-typescript.png';
+import postgresql from '../Assets/Icons/PostgreSQL.png';
+import swift from '../Assets/Icons/Swift.png';
+import tech from '../Assets/Icons/Tech.png';
+import { FooterComponent } from "../Components/Footer/footer";
 
 
 const AboutMePage = () => {
@@ -78,7 +93,77 @@ const AboutMePage = () => {
                         <p className="aboutSkills_title">Skils</p>
                     </div>
                 </div>
+
+                <div>
+                    <p className="about_descriptionSkill">As habilidades, ferramentas e tecnologias nas quais sou bom:</p>
+                </div>
+
+                <section className="about_container">
+                    <div className="about_skillsImage">
+                        <img src={css} alt="CSS logo" className="skillImg" id="CSS" />
+                        <p className="about_description">CSS</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={blender} alt="Blender logo" className="skillImg" id="Blender" />
+                        <p className="about_description">Blender</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={bootstrap} alt="Bootstrap logo" className="skillImg" id="Bootstrap" />
+                        <p className="about_description">Bootstrap</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={docker} alt="Docker logo" className="skillImg" id="Docker" />
+                        <p className="about_description">Docker</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={html} alt="html 5 logo" className="skillImg" id="HTML" />
+                        <p className="about_description">HTML</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={express} alt="Express logo" className="skillImg" id="Express" />
+                        <p className="about_description">Express</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={git} alt="Git logo" className="skillImg" id="Git" />
+                        <p className="about_description">Git</p>
+                    </div>
+
+                </section>
+
+                <section className="about_container">
+                    <div className="about_skillsImage">
+                        <img src={javscript} alt="JavaScript logo" className="skillImg" id="JavaScript" />
+                        <p className="about_description" id="">JavaScript</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={nodejs} alt="NodeJS logo" className="skillImg" id="NodeJS" />
+                        <p className="about_description">NodeJS</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={react} alt="React logo" className="skillImg" id="React" />
+                        <p className="about_description">React</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={typescript} alt="Typescript logo" className="skillImg" id="Typescript" />
+                        <p className="about_description">TypeScript</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={postgresql} alt="PostgresSQL logo" className="skillImg" id="PostgresSQL" />
+                        <p className="about_description">PostgresSQL</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={swift} alt="Swift logo" className="skillImg" id="Swift" />
+                        <p className="about_description">Swift</p>
+                    </div>
+                    <div className="about_skillsImage">
+                        <img src={tech} alt="MongoDB logo" className="skillImg" id="MongoDB" />
+                        <p className="about_description">MongoDB</p>
+                    </div>
+
+
+                </section>
             </div>
+            <FooterComponent />
         </div>
     )
 };
