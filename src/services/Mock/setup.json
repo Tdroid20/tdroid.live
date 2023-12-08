@@ -28,11 +28,11 @@
         "translation": {
             "pt_BR": {
                 "title": "Ops! parece que essa é uma versão pré alpha",
-                "description": "essa é uma versão pré alpha do nosso site. para prosseguir insira seu codigo de acesso. caso não tenha fique tranquilo, pode vizuaizar no nosso canal beta"
+                "description": "Esse site está sendo migrado para about.tdroid.live, em breve verão a proxima versão do Projeto MasterHUB."
             },
             "en_US": {
                 "title": "Oops! looks like this is a pre alpha version",
-                "description":"This is a pre alpha version of our website. To proceed, enter your access code. If you don't have it, don't worry, you can view it on our beta channel"
+                "description": "Esse site está sendo migrado para about.tdroid.live, em breve verão a proxima versão do Projeto MasterHUB."
             }
         }
     }
